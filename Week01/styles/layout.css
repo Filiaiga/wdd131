@@ -1,0 +1,16 @@
+* {
+    background-color: lightblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    grid-template: auto 1fr auto / auto 1fr auto;
+}
+
+nav {
+    display: flex;
+}
+
+header {
+    color-scheme: lightblue;
+}
