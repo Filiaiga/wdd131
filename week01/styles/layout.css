@@ -1,17 +1,27 @@
 * {
     background-color: lightblue;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    grid-template: auto 1fr auto / auto 1fr auto;
+
 }
+
 
 body {
     display: grid;
-    grid-template: auto 1fr auto / auto 1fr auto;
+    grid-column: 1/4;
+
+}
+
+header {
+    color-scheme: lightblue;
+    grid-column: 3/4;
 }
 
 nav {
     display: flex;
 }
 
-header .parent {
-    color-scheme: lightblue;
+a {
+    padding: 1.2rem;
+    align-content: center;
 }
