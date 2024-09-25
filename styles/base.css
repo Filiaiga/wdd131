@@ -2,7 +2,7 @@
     background-color: rgb(199, 192, 192);
     color: black;
     grid-template: auto 1fr auto / auto 1fr auto;
-
+    font-family: system-ui;
 }
 
 body {
@@ -27,7 +27,7 @@ nav a {
 nav a:hover {
     border: 1px solid white;
     text-decoration: overline;
-    
+
 
 }
 
