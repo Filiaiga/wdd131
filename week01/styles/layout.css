@@ -3,8 +3,6 @@
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
     grid-template: auto 1fr auto / auto 1fr auto;
-
-
 }
 
 body {
@@ -14,7 +12,7 @@ body {
 }
 
 a {
-    padding-right: 10rem;
+    padding-right: 4rem;
 }
 
 header {
@@ -51,5 +49,4 @@ footer {
 
 h1 {
     padding: 1.2rem;
-
 }
