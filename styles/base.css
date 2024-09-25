@@ -1,6 +1,6 @@
 * {
-    background-color: rgb(224, 215, 215);
-    color: rgb(20, 17, 17);
+    background-color: rgb(247, 247, 248);
+    color: rgb(8, 6, 6);
     grid-template: auto 1fr auto / auto 1fr auto;
     font-family: system-ui;
 }
@@ -25,7 +25,7 @@ nav a {
 }
 
 nav a:hover {
-    border: 1px solid white;
+    border: 1px solid rgb(247, 233, 233);
     text-decoration: overline;
 
 
@@ -33,11 +33,12 @@ nav a:hover {
 
 a {
     text-decoration: none;
+    color: rgb(19, 18, 18);
 
 }
 
 .active {
-    color: rgb(58, 184, 106)
+    color: rgb(81, 20, 196)
 }
 
 header {
@@ -45,7 +46,7 @@ header {
     padding-top: 4%;
     grid-column: 1/4;
     outline: auto;
-    
+
 
 }
 
@@ -57,16 +58,16 @@ main {
 }
 
 .card {
-    background: rgb(185, 185, 176);
+    background: rgb(161, 161, 156);
     grid-column: 1/3;
     font-size: larger;
     width: auto;
     height: auto;
-    padding:1rem;
+    padding: 1rem;
 }
 
 div {
-    background: rgb(179, 179, 161);
+    background: rgb(235, 235, 229);
     height: auto;
     font-size: larger;
     border: 5px solid gray;
@@ -75,7 +76,7 @@ div {
 }
 
 footer {
-    background: rgb(151, 153, 146);
+    background: rgb(175, 177, 170);
     color: rgb(7, 4, 4);
     font-size: larger;
     grid-column: 1/4;
@@ -84,8 +85,9 @@ footer {
 
 h2 {
     font-weight: 300;
-    font-size: x-large;
+    font-size: xx-large;
     text-align: center;
+    color: rgb(27, 25, 25);
 
 }
 
@@ -94,6 +96,8 @@ h2 {
     display: grid;
     padding: .5rem;
     background: none;
+    color: rgb(27, 24, 24);
+    font-size: x-large;
 
 }
 
@@ -105,7 +109,7 @@ p {
 .metal {
     background: none;
     color: white;
-    
+
 }
 
 .me img {
@@ -133,11 +137,12 @@ span {
 nav ul {
     display: flex;
     justify-content: space-evenly;
-    
+    font-size: x-large;
+
 }
 
-nav ul li {
+nav ul {
     flex: 1 1 100%;
-    
+
 
 }
