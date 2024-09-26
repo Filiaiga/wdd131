@@ -21,7 +21,7 @@ section {
 h2{
     text-align: center;
 }
-footer{
+header, footer{
     color:white;
     font-size: x-large;
 }
